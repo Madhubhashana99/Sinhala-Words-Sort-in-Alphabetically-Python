@@ -23,8 +23,8 @@ def sort_sinhala_words(excel_file, sheet_name, column_index):
 
 # Example usage
 if __name__ == "__main__":
-    excel_file = "words.xlsx"  # Replace with your Excel file path
-    sheet_name = "Sheet1"  # Replace with your sheet name
-    column_index = 1  # Replace with the column index containing Sinhala words
+    excel_file = "words.xlsx"
+    sheet_name = "Sheet1"
+    column_index = 1  
 
     sort_sinhala_words(excel_file, sheet_name, column_index)

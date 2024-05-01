@@ -12,3 +12,10 @@ def sort_sinhala_words(excel_file,sheet_name,column_index):
     #Now write the sorted value back to the excel file
     for i,word in enumerate(sorted_sinhala_words, start=1):
         sheet[get_column_letter(column_index)+str(i)] = word
+
+
+    #Save the changes
+    wb.save(excel_file) sorted and save
+
+    print("Sinhala words successfully")
+        S

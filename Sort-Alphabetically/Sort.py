@@ -25,6 +25,6 @@ def sort_sinhala_words(excel_file, sheet_name, column_index):
 if __name__ == "__main__":
     excel_file = "words.xlsx"
     sheet_name = "Sheet1"
-    column_index = 1  
+    column_index = 1
 
     sort_sinhala_words(excel_file, sheet_name, column_index)
